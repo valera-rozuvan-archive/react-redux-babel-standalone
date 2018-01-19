@@ -10,7 +10,7 @@ Without any help of such tools as Gulp, Browserify, Webpack, etc.
 
 ## Run locally
 
-Make sure you have [node](https://github.com/nodejs/node), [npm](https://github.com/npm/npm), and [nodemon](https://www.npmjs.com/package/nodemon) installed globally.
+Make sure you have [node](https://github.com/nodejs/node), [npm](https://github.com/npm/npm), and [nodemon](https://github.com/remy/nodemon) installed globally.
 
 1. Clone this repository.
 2. Switch to repository root folder.
