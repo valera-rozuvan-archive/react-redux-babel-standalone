@@ -1,14 +1,14 @@
 {
-  "name": "express-server",
+  "name": "react-redux-babel-in-browser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example of React + Redux + Babel application running inside the browser",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Valera Rozuvan",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.2"
   }
