@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-babel-in-browser",
+  "name": "react-redux-babel-standalone",
   "version": "1.0.0",
-  "description": "Example of React + Redux + Babel application running inside the browser",
+  "description": "Example of React + Redux + Babel Standalone application.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
