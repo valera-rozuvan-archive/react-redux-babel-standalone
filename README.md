@@ -1,4 +1,4 @@
-# React Redux Babel in Browser
+# React + Redux + Babel in Browser
 
 Example of React + Redux + Babel application running inside the browser.
 Without any help of such tools as Gulp, Browserify, Webpack, etc.
