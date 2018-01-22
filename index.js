@@ -1,5 +1,7 @@
 const express = require('express');
 
+const enableLiveReload = require('./enable-livereload');
+
 const RouteLogMiddleware = require('./server/middleware/route-log-middleware');
 const CatchErrorMiddleware = require('./server/middleware/catch-error-middleware');
 
@@ -20,11 +22,13 @@ app.use(CatchErrorMiddleware);
 
 app.listen(port, (err) => {
     if (err) {
-        console.log('Error while starting server:');
+        console.log('Error while starting Express Server:');
         console.log(err);
 
         return;
     }
 
-    console.log(`Server is listening on ${port}.`);
+    console.log(`Express Server is listening on ${port}.`);
 });
+
+enableLiveReload();

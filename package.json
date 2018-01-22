@@ -10,6 +10,7 @@
   "author": "Valera Rozuvan",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "livereload": "^0.6.3"
   }
 }
